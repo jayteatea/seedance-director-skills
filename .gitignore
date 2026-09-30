@@ -1,0 +1,17 @@
+# Keep creative projects and credentials outside this public skill repository.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.data/
+runtime/
+logs/
+private/
+projects/
+outputs/
+node_modules/
+__pycache__/
+*.zip
+.DS_Store
+Thumbs.db
