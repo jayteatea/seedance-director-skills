@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 总导演"
+  short_description: "剧本理解、导演方案、电影化分镜、精修建议与独立成组提示词"
+  default_prompt: "使用 $seedance-director，先理解我的剧本和拍摄要求，再按当前授权完成导演工作。"
