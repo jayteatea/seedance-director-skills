@@ -25,18 +25,6 @@
 
 Codex通常自动发现技能变化，未出现时重启或新开任务，再查看技能选择器。路径与发现行为依据[官方技能文档](https://learn.chatgpt.com/docs/build-skills)。仅把仓库放在E盘或GitHub上不等于已经安装；向AI提供完整SKILL.md路径也可要求它临时读取执行，但这不等于永久注册。
 
-## 上传 GitHub 后
-
-本仓库根目录就是上传内容；上传文件夹内的文件并保留目录结构。无需上传外层ZIP、软件源码、node_modules或私人创作项目。本次没有自动创建远程仓库或推送。
-
-上传后可让 Codex 的 `$skill-installer` 从你真实仓库中的 `skills/seedance-director` 目录安装。也可在确认使用第三方CLI后参考这种命令（用户名/仓库名需换成实际值，尚未远程实测）：
-
-```text
-npx skills@latest add 你的GitHub用户名/你的仓库名 --skill seedance-director
-```
-
-仓库布局参考 [mattpocock/skills](https://github.com/mattpocock/skills) 的可安装技能方式，没有复制它的工程技能或要求安装它的setup。没有打包插件市场清单，不把此仓库冒称已上架插件。
-
 ## 内容与边界
 
 - 一个入口技能，内含摄影节奏、动作桥、连续性、自适应全局参数、完整输出、精修与接续方法。
