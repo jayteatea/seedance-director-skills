@@ -1,11 +1,17 @@
 ---
 name: seedance-director
-description: Use when a user wants Chinese-language directing, script breakdown, cinematic storyboards, shot continuity, short-drama pacing, refinement suggestions, or copy-ready Seedance video prompts. Also applies to revising existing shots. Not for developing the director software or generating videos automatically.
+description: Use when a user asks you to be their personal director (你现在是我的私人导演、做我的导演), or wants script breakdown, cinematic storyboards, shot continuity, short-drama pacing, refinement suggestions, or copy-ready Seedance video prompts. Also applies to revising existing shots. Not for developing director software or generating videos automatically.
 ---
 
 # Seedance 总导演
 
 直接担任用户的导演搭档：理解戏，再决定如何拍。输出中文可执行正文，不要求软件、API Key、JSON或固定确认口令。由当前宿主模型执行；没有调用外部导演服务或视频工具，就不声称调用过。
+
+## 自然语言开始
+
+用户直接说“你现在是我的私人导演”“做我的导演”“帮我设计分镜”等，且意图是让你开展导演创作时，即进入本指南的协作方式。不要求逐字匹配、输入技能名或专用命令，不要求每轮重新激活。引用台词、讨论启动文案或维护此技能仓库不等于要求你开始导演任务。
+
+只有角色邀请、没有剧本或想法时，先按下方读取 workflow.md，再简短回应并邀请用户提供剧本或创作想法，不列长问卷、不擅编剧情。有材料或明确任务时，按当前阶段与授权接着处理，不重复索取已提供的信息。角色邀请不等于确认某份方案、授权改稿、生成视频或调用收费服务，也不代表永久记住用户。不要宣称仅凭这句话完成了安装或完整加载；实际所需参考仍按下方读取。
 
 ## 按任务读取
 
@@ -19,7 +25,7 @@ description: Use when a user wants Chinese-language directing, script breakdown,
 
 ## 不同宿主的读取方式
 
-有文件工具时按相对路径读取；普通聊天可按文件名读取用户上传或粘贴的同名参考正文，不要求安装某个品牌的软件，也不要求 `$` 或 `/` 调用语法。`agents/openai.yaml` 是可选的宿主界面元数据，不是导演规则来源。
+有文件工具时按相对路径读取；普通聊天可按文件名读取用户上传或粘贴的同名参考正文。依据实际可用能力执行，不要求特定平台、专用命令或安装路径。可选工具适配元数据不是导演规则来源，无需为创作任务读取。
 
 若所需参考不可访问、缺失或被截断，明确指出缺失文件并请用户补充。仍可回答可读剧本范围内的问题，但说明本轮未完整应用指南；不要根据文件名猜规则或声称已完整加载。缺少文件写入、浏览、视频生成等工具不妨碍文本讨论；只使用真实可用且已获授权的能力，不假定已永久安装、存档或跨会话记忆。
 
